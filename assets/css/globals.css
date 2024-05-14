@@ -1,0 +1,64 @@
+@import url('./base.css');
+
+body {
+    font-family: 'San Francisco', system-ui, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.custom-link {
+    border: 1px solid var(--custom-link-color);
+    color: var(--custom-link-color);
+    padding: 8px 12px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.custom-title {
+    background: linear-gradient(318deg, #FE9494 35%, #FFFFFF 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-link-light {
+    border: 1px solid white;
+    color: white;
+}
+
+.custom-link-dark {
+    border: 1px solid black;
+    color: black;
+}
+.custom-link:hover{
+    transform: scale(1.1);
+}
+
+.custom-social {
+    background-color: #7C7C7C; 
+    color: black; 
+    width: 38px;
+    height: 38px;
+    /* Con css */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.2s ease;
+}
+
+.custom-social:hover{
+    background-color: #707070;
+}
+
+.custom-footer-link{
+    font-size: 14px;
+    transition: 0.3s;
+}
+.custom-footer-link:hover{
+    color: white;
+}
+
+footer p.h6{
+    font-size: 20px;
+}
